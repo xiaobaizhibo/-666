@@ -139,21 +139,22 @@
       }
     },
     {
-      "key": "ManJuAiHongGuo",
-      "name": "红G • 漫短",
-      "type": 3,
-      "类型": "短剧",
-      "api": "csp_ManJuAiHongGuoGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/10/9a35119b3c4b4ba86345e3ab35b017a0.jpg"
-    },
-    {
       "key": "红果短剧",
       "name": "红果 • 短剧",
       "type": 3,
       "api": "https://yc.wya6.cn/xsa/py/红果短剧.py",
       "genre": "shortdrama"
+    },
+    {
+      "key": "csp_XYQHiker_短剧五五",
+      "name": "红果•漫短",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/%E7%9F%AD%E5%89%A7%E4%BA%94%E4%BA%94.json",
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar"
     },
     {
       "key": "七猫短剧",
@@ -216,13 +217,15 @@
       }
     },
     {
-      "key": "AnimeXiFan",
-      "name": "稀饭 • 动漫",
+      "key": "csp_XYQHiker_去看吧动漫",
+      "name": "稀饭• 动漫",
       "type": 3,
-      "api": "csp_AnimeXiFanGuard",
+      "api": "csp_XYQHiker",
       "searchable": 1,
-      "changeable": 0,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/10/9a35119b3c4b4ba86345e3ab35b017a0.jpg"
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/%E5%8E%BB%E7%9C%8B%E5%90%A7%E5%8A%A8%E6%BC%AB.json",
+      "jar": ""
     },
     {
       "key": "巴士动漫",
@@ -887,6 +890,26 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
+    },
+    {
+      "name": "王",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
+    },
+    {
+      "name": "二",
+      "type": 1,
+      "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url="
+    },
+    {
+      "name": "小",
+      "type": 1,
+      "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url="
+    },
+    {
+      "name": "帅",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
     }
   ],
   "rules": [
@@ -1142,7 +1165,7 @@
         },
         {
           "category": 1,
-          "名称": "fflags",
+          "name": "fflags",
           "value": "fastseek"
         },
         {
